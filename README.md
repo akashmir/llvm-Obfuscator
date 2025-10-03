@@ -39,8 +39,8 @@ Professional results display with metrics and download options.
 - .NET 8.0 Runtime (included in self-contained build)
 
 ### Installation
-1. Download the latest release from the [Releases](https://github.com/yourusername/llvm-obfuscator-gui/releases) page
-2. Extract `LLVMObfuscatorAvalonia.exe` to your desired location
+1. Download the latest release from the [Releases](https://github.com/akashmir/llvm-Obfuscator/releases) page
+2. Extract `LLVMObfuscator.exe` to your desired location
 3. Run the executable
 
 ### Usage
@@ -60,8 +60,8 @@ Professional results display with metrics and download options.
 #### Build Steps
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/llvm-obfuscator-gui.git
-cd llvm-obfuscator-gui
+git clone https://github.com/akashmir/llvm-Obfuscator.git
+cd llvm-obfuscator
 
 # Restore dependencies
 dotnet restore
@@ -70,13 +70,13 @@ dotnet restore
 dotnet build --configuration Release
 
 # Run the application
-dotnet run --project LLVMObfuscatorAvalonia
+dotnet run --project LLVMObfuscator
 ```
 
 #### Creating Release Build
 ```bash
 # Use the provided build script
-./build-avalonia.bat
+./build.bat
 
 # Or manually publish
 dotnet publish -c Release -r win-x64 --self-contained true -p:PublishSingleFile=true
@@ -107,8 +107,8 @@ The application supports various obfuscation techniques:
 ## 📁 Project Structure
 
 ```
-LLVMObfuscatorGUI/
-├── LLVMObfuscatorAvalonia/          # Main Avalonia application
+gui/
+├── LLVMObfuscator/          # Main application
 │   ├── Views/                       # UI views (XAML)
 │   ├── ViewModels/                  # MVVM view models
 │   ├── Services/                    # Business logic services
@@ -175,9 +175,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Support
 
-- **Issues**: [GitHub Issues](https://github.com/yourusername/llvm-obfuscator-gui/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/yourusername/llvm-obfuscator-gui/discussions)
-- **Email**: support@yourdomain.com
+- **Issues**: [GitHub Issues](https://github.com/akashmir/llvm-obfuscator/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/akashmir/llvm-obfuscator/discussions)
+- **Email**: akashbashir2442@gmail.com
 
 ## 🔄 Changelog
 
@@ -196,4 +196,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-**Made with ❤️ for the LLVM community**
+**Made with ❤️ by Akash**
