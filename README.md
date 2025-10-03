@@ -18,11 +18,13 @@ A modern, professional desktop application for LLVM code obfuscation built with 
 - **🚀 Performance**: Optimized for large codebases
 
 ## 🖼️ Screenshots
+<img width="743" height="729" alt="Screenshot 2025-10-02 213630" src="https://github.com/user-attachments/assets/960e0581-3640-4906-aa3d-0bfa9af56e09" />
 
 ### File Selection
 Clean file selection interface with drag-and-drop support.
 
 ### Configuration
+
 Multiple obfuscation presets:
 - **Basic**: Light obfuscation for performance
 - **Standard**: Balanced obfuscation
